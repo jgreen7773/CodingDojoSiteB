@@ -1,0 +1,13 @@
+img{
+    width:175px;
+    margin: 5px 15px 15px 15px;
+}
+
+button{
+    display:block;
+    width:200px;
+    height:30px;
+    background-color:lightgreen;
+    border-radius:17px;
+    box-shadow: 5px 5px 0px grey;
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Jamie's First jQuery Assignment</title>
+    <link rel="stylesheet" href="jQuery1.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+            $(document).ready(function(){
+                // alert("working")
+                $('.navtext').hover(function(){$(this).fadeOut(100);$(this).fadeIn(6000);});
+                $('.logo').click(function(){$('.logo').css('margin', '50px 0px 0px 50px')});
+                // $('.getting_started h3').on(function(){text("We're getting started")});
+                $('.navlinks2').click(function(){$('navlinks2').hide("slow", function(){slideUp});});
+            })
+        </script>
+</head>
+<body>
+    <div class="header_wrapper">
+        <img src="./python.png" alt="Python logo" class="logo">
+        <div class="text_size_and_box">
+            <p class="selection">Text Size:<span><a href="" class="orange">Normal</a> <span class="black">|</span> </span><span><a href="" class="orange">Large</a></span></p>
+            <form class="text_box">
+                <label for="search" class="label"></label>
+                <input type="text" class="search" name="search">
+                <button type="button">GO</button>
+            </form>
+        </div>
+    </div>
+    <nav class="navbox">
+        <li class="navlinks"><a href="" class="navtext">About</a></li>
+        <li class="navlinks"><a href="" class="navtext">Downloads</a></li>
+        <li class="navlinks"><a href="" class="navtext">Documentation</a></li>
+        <li class="navlinks"><a href="" class="navtext">Community</a></li>
+        <li class="navlinks"><a href="" class="navtext">News</a></li>
+        <li class="navlinks"><a href="" class="navtext">Events</a></li>
+    </nav>
+        <ul class="side_menu_list_wrapper">
+            <li class="li_wrapper"><a href="" class="navlinks2">Docs</a></li>
+            <li class="li_wrapper"><a href="" class="navlinks2">Audio/Visual Talks</a></li>
+            <li class="li_wrapper"><a href="" class="navlinks2">Beginner's Guide</a></li>
+            <li class="li_wrapper"><a href="" class="navlinks2">Developer's Guide</a></li>
+            <li class="li_wrapper"><a href="" class="navlinks2">PEP Index</a></li>
+            <li class="li_wrapper"><a href="" class="navlinks2">Python Books</a></li>
+            <li class="li_wrapper"><a href="" class="navlinks2">FAQ</a></li>
+        </ul>
+    <div class="paragraph">
+        <p class="above">First appearing in 1991, Python is a general-purpose, high-level, interpreted programming language whose design focus emphasizes code readability. Whether for processing/analyzing data to powering many well-known applications, Python is not only a great language for new programmers but also powerful enough for seasoned developers building whatever they can think of.</p>
+        <div class="italic_text">
+            <p class="below">Beautiful is better than ugly;</p>
+            <p class="below">Explicit is better than implicit;</p>
+            <p class="below">Simple is better than complex;</p>
+            <p class="below">Complex is better than complicated;</p>
+            <p class="below">Readability counts;</p>
+            <p class="zen">The Zen of Python</p>
+        </div>
+    </div>
+    <p class="extra_white"></p>
+    <div class="white_band">
+        <div class="getting_started">
+            <h3>Getting Started</h3>
+            <p>Python can be easy to pick up whether you're a first time programmer or you're experienced with other languages. The following pages are a useful first step to get on your way writing programs with Python!</p>
+            <ul>
+                <li><a href="" class="hl_list1">Beginner's Guide, Programmers</a></li>
+                <li><a href="" class="hl_list1">Beginner's Guide, Non-Programmers</a></li>
+                <li><a href="" class="hl_list1">Code sample and snippets for Beginners</a></li>
+            </ul>
+        </div>
+        <div class="applications">
+            <h3>Applications</h3>
+            <p>The <a href="" class="hl_list1">Python Package Index (PyPI)</a>hosts thousands of third-party modules for Python. Both Python's standard library and the community-contributed modules allow for endless possibilities.</p>
+            <ul>
+                <li><a href="" class="hl_list1">Web and Internet Development</a></li>
+                <li><a href="" class="hl_list1">Database Access</a></li>
+                <li><a href="" class="hl_list1">Desktop GUIs</a></li>
+                <li><a href="" class="hl_list1">Network Programming</a></li>
+                <li><a href="" class="hl_list1">Software and Game Development</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+<footer>
+    <nav class="navbox2">
+        <li><a href="" class="hl_list2">Help and General Contact</a></li>
+        <li><a href="" class="hl_list2">Diversity Initiatives</a></li>
+        <li><a href="" class="hl_list2">Submit Website Bugs</a></li>
+    </nav>
+    <p class="copyright">Copyright &#169;2001-2016</p>
+</footer>
+</html>
