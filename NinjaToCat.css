@@ -1,0 +1,14 @@
+.container{
+    width:300px;
+    margin:auto;
+    height:900px;
+}
+
+
+
+img{
+    width: 200px;
+    height:auto;
+    display:block;
+    margin:3px auto 3px auto;
+}
