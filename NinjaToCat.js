@@ -20,3 +20,5 @@ $('img').on('click', function(){
 // $('container2', 'img').on('click', function(){
 //     $(this).attr('data-alt-src', $(this).attr('src'));
 // })
+
+// I think I should put it in a function ( if conditionals )
