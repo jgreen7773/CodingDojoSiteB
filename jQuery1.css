@@ -282,3 +282,19 @@ button{
 
 
 
+.bg-primary{
+    background-color:rgb(139, 167, 64);
+    border-radius:2px;
+}
+
+
+
+.textbodybig{
+    font-size:22px;
+}
+
+
+
+.textbodynormal{
+    font-size:14px;
+}
